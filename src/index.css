@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 25vw;
+    min-height: 100vh !important;
+    z-index: 100;
+    padding: 48px 20px 0;
+    background-color: darkkhaki;
+    box-shadow: inset -1px 0 0 rgb(0 0 0 / 10%);
+}
